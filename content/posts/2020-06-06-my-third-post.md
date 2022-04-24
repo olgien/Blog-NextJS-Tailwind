@@ -1,8 +1,8 @@
 ---
 title: Płaszcz-kocyk - historia najmilszego płaszcza
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-date: 2020-06-06
-modified_date: 2020-06-06
+date: '2020-06-06'
+modified_date: '2020-06-06'
 image: img/plaszcze-olga-pokrywka.jpg
 ---
 
