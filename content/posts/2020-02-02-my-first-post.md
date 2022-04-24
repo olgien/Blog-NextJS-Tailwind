@@ -6,9 +6,7 @@ modified_date: '2020-02-02'
 image: /assets/images/posts/random-img.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Example with image:
+To jest moj pierwszy post, ktory zmienilam
 
 ![Error](@@baseUrl@@/assets/images/posts/error.png)
 

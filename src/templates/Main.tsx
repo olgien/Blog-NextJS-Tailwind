@@ -11,7 +11,7 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="antialiased w-full text-gray-700 px-3 md:px-0">
+  <div className="antialiased w-full text-gray-700 px-3 md:px-0 bg-gradient-to-r from-white to-pink-500">
     {props.meta}
 
     <div className="max-w-screen-md mx-auto">

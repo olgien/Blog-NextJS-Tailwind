@@ -1,5 +1,5 @@
 ---
-title: 'My forth post'
+title: 'Sztuka piknikowania. Czy wiesz jak zrobić udany piknik?'
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: '2020-07-07'
 modified_date: '2020-07-07'

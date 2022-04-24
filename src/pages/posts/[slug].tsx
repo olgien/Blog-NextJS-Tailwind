@@ -36,7 +36,7 @@ const DisplayPost = (props: IPostProps) => (
       />
     }
   >
-    <h1 className="text-center font-bold text-3xl text-gray-900">
+    <h1 className="text-center font-bold text-xl text-gray-900">
       {props.title}
     </h1>
     <div className="text-center text-sm mb-8">
@@ -51,6 +51,8 @@ const DisplayPost = (props: IPostProps) => (
     </Content>
   </Main>
 );
+
+// tu jest mapowanie postów do bloga
 
 export const getStaticPaths: GetStaticPaths<IPostUrl> = async () => {
   const posts = getAllPosts(['slug']);
