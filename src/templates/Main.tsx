@@ -13,50 +13,38 @@ type IMainProps = {
 const Main = (props: IMainProps) => (
   <div className="antialiased w-full text-gray-700 px-3 md:px-0 bg-slate-50">
     {props.meta}
-
     <div className="max-w-screen-md mx-auto">
-      <div className="border-b border-gray-300">
+      <div className="border-b border-violet-200">
         <div className="pt-16 pb-8">
           <div className="text-4xl text-gray-900 font-extrabold">
             {AppConfig.title}
           </div>
-          <div className="text-xl">{AppConfig.description}</div>
+          <div className="text-2xl">{AppConfig.description}</div>
         </div>
         <div>
+          <img src="./banner.jpg" alt="Decorative banner" />
+          <br />
           <Navbar>
             <li className="mr-6">
               <Link href="/">
-                <a>Home</a>
+                <a>Strona główna</a>
               </Link>
             </li>
             <li className="mr-6">
               <Link href="/about/">
-                <a>About</a>
+                <a>O mnie</a>
               </Link>
-            </li>
-            <li className="mr-6">
-              <a href="https://github.com/ixartz/Next-js-Blog-Boilerplate">
-                GitHub
-              </a>
             </li>
           </Navbar>
         </div>
       </div>
-
       <div className="text-xl py-5">{props.children}</div>
 
       <div className="border-t border-gray-300 text-center py-8 text-sm">
-        © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
+        © Copyright {new Date().getFullYear()} {AppConfig.title}
         <span role="img" aria-label="Love">
-          ♥
+          &nbsp;♥
         </span>{' '}
-        by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
-        {/*
-         * PLEASE READ THIS SECTION
-         * We'll really appreciate if you could have a link to our website
-         * The link doesn't need to appear on every pages, one link on one page is enough.
-         * Thank you for your support it'll mean a lot for us.
-         */}
       </div>
     </div>
   </div>
