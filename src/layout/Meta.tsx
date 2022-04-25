@@ -129,7 +129,7 @@ const Meta = (props: IMetaProps) => {
                 "@type": "ImageObject",
                 "url": "${AppConfig.url}${
                   router.basePath
-                }/assets/images/logo.png"
+                }/assets/images/cropped-logo.png"
               },
               "name": "${AppConfig.author}"
             },
