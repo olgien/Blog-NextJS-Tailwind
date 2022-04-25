@@ -28,7 +28,6 @@ const About = () => (
   <Main meta={<Meta title="Lorem ipsum" description="Lorem ipsum" />}>
     <Content>
       <Info h1={'O mnie'} />
-      <img src="./src/pages/ok.jpg" />
       <Me
         text={
           'Żeby się czymś cieszyć, trzeba mieć na to czas, dlatego idea slow life i slow fashion jest mi bliska. Całe życie śpiewam, oglądam dużo filmów i marzę o kolejnych podróżach.'

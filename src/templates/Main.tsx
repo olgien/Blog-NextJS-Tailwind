@@ -11,13 +11,13 @@ type IMainProps = {
 };
 
 const Main = (props: IMainProps) => (
-  <div className="antialiased w-full text-gray-700 px-3 md:px-0 bg-gradient-to-r from-white to-pink-500">
+  <div className="antialiased w-full text-gray-700 px-3 md:px-0 bg-slate-50">
     {props.meta}
 
     <div className="max-w-screen-md mx-auto">
       <div className="border-b border-gray-300">
         <div className="pt-16 pb-8">
-          <div className="font-semibold text-3xl text-gray-900">
+          <div className="text-4xl text-gray-900 font-extrabold">
             {AppConfig.title}
           </div>
           <div className="text-xl">{AppConfig.description}</div>

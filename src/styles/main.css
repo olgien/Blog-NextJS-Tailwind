@@ -1,11 +1,11 @@
 @tailwind base;
 
 a {
-  @apply text-blue-700;
+  @apply text-black font-sans tracking-tight;
 }
 
 a:hover {
-  @apply underline;
+  @apply no-underline text-pink-400;
 }
 
 @tailwind components;
