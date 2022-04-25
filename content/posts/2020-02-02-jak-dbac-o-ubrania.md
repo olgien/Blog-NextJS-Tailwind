@@ -8,12 +8,3 @@ image: /assets/images/img/3-olga-pokrywka-jak-dbac-o-welne-suszarka-bebnowa.jpg
 
 To jest moj pierwszy post, ktory zmienilam
 
-![Error](@@baseUrl@@/assets/images/posts/error.png)
-
-Example code block:
-
-```js
-function myFunction() {
-  return true;
-}
-```

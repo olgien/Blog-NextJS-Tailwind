@@ -42,6 +42,7 @@ const DisplayPost = (props: IPostProps) => (
     <div className="text-center text-sm mb-8">
       {format(new Date(props.date), 'LLLL d, yyyy')}
     </div>
+    <img src={`/${props.image}`} />
 
     <Content>
       <div
@@ -52,7 +53,7 @@ const DisplayPost = (props: IPostProps) => (
   </Main>
 );
 
-// tu jest mapowanie postów do bloga
+// metoda map do postów na blog:
 
 export const getStaticPaths: GetStaticPaths<IPostUrl> = async () => {
   const posts = getAllPosts(['slug']);
